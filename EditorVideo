@@ -1,0 +1,11 @@
+public class EditorVideo extends Funcionario{
+
+    public abstract double calculaBonificacao(){
+        return super.getSalario();
+    };
+
+    public abstract int calculaFerias(){
+        return 35;
+    };
+
+}
