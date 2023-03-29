@@ -2,11 +2,11 @@ public class EditorVideo extends Funcionario{
 
 
     // <Métodos da SuperClass>
-    public abstract double calculaBonificacao(){
+    public double calculaBonificacao(){
         return super.getSalario();
     };
 
-    public abstract int calculaFerias(){
+    public int calculaFerias(){
         return 35;
     };
     // <Métodos da SuperClass/>
