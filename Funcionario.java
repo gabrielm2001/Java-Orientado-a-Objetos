@@ -1,9 +1,15 @@
 public abstract class Funcionario{
 
+    public Funcionario(String nome, Cargo cargo){
+        this.nome = nome;
+        this.cargo = cargo;
+    }
+
     // <Atributos>
     private double salario;
     private String cpf;
     private String nome;
+    protected Cargo cargo;
     // <Atributos/>
 
     // <Métodos>
@@ -21,6 +27,9 @@ public abstract class Funcionario{
     public double getSalario() {
         return salario;
     }
+    public Cargo getCargo() {
+        return cargo;
+    }
     // <Getters/>
 
 
@@ -34,6 +43,9 @@ public abstract class Funcionario{
     public void setSalario(double salario) {
         this.salario = salario;
     }
+    // public void setCargo(Cargo cargo) {
+    //     this.cargo = cargo;
+    // }
     // <Setters/>
 
 
